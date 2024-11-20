@@ -20,6 +20,10 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 }
+span{
+    color: #f9004d;
+    font-family: 'Times New Roman', Times, serif;
+}
 .portfolio-logo{
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -27,10 +31,8 @@ nav{
     letter-spacing:  1px;
     cursor: pointer;
 }
-span{
-    color: #f9004d;
-    font-family: 'Times New Roman', Times, serif;
-}
+
+
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -52,8 +54,8 @@ nav ul li a:hover{
     background-color: #f9004d;
     color: white;
     text-decoration: none;
-    border: 2px solid transparent;
     font-weight: bold;
+    border: 2px solid transparent;
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
@@ -67,6 +69,19 @@ nav ul li a:hover{
     left: 8%;
     transform: translateY(-50%);
 }
+.container {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    overflow: hidden;  
+}
+
+.text {
+    display: inline-block;
+    white-space: nowrap;
+}
+
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -74,6 +89,7 @@ h1{
     font-size:   75px;
 }
 h3{
+    display: flex;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 25px;
@@ -112,6 +128,10 @@ h4{
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     top:6px;
     right: 6px; 
+    cursor: pointer;
+}
+.newslatter form input:last-child:hover{
+    transform: scale(1.2);
 }
 
 .about{
@@ -129,9 +149,13 @@ h4{
     width: 430px;
     border-radius: 30px;
 }
+.about img:hover{
+    transform: scale(1.1);
+}
 .about-text{
     width: 550px;
 }
+
 .main{
     width: 1130px;
     max-width: 95%;
@@ -380,6 +404,7 @@ ani1 {
     animation-name: portfolio-animation;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    font-size: 30px;
   }
 
 
@@ -400,4 +425,6 @@ ani1 {
     position: relative;
     animation: thirdanimation 6s linear 1s infinite ;
   }
+  
+
   
